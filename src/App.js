@@ -25,8 +25,8 @@ const App = () => {
           progress={progress}
         />
         <Routes>
-          <Route exact path="/" element={<News setProgress={setProgress} key="home" country="in" category="" pageSize="9" apiKey={apiKey} />} />
-          <Route exact path="/home" element={<News setProgress={setProgress} key="home" country="in" category="" pageSize="9" apiKey={apiKey} />} />
+          <Route exact path="/" element={<News setProgress={setProgress} key="home" country="in" category="general" pageSize="9" apiKey={apiKey} />} />
+          <Route exact path="/home" element={<News setProgress={setProgress} key="home" country="in" category="general" pageSize="9" apiKey={apiKey} />} />
           <Route exact path="/business" element={<News setProgress={setProgress} key="business" country="in" category="business" pageSize="9" apiKey={apiKey} />} />
           <Route exact path="/entertainment" element={<News setProgress={setProgress} key="entertainment" country="in" category="entertainment" pageSize="9" apiKey={apiKey} />} />
           <Route exact path="/general" element={<News setProgress={setProgress} key="general" country="in" category="general" pageSize="9" apiKey={apiKey} />} />
