@@ -5,3 +5,7 @@
     z-index: 10;
     height: 7vh;
 }
+
+.row {
+    margin-right: 0;
+}
